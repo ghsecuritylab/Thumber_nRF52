@@ -1,1 +1,2 @@
-# Thumber_nRF52
+# factronome_nrf52
+factronome_nrf52

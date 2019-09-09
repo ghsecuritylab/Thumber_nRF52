@@ -1,52 +1,58 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
+#git rm -r --cached .
+#git add .
+#git commit -m "fixed commit"
+*.axf
+*.swp
+*.htm
+*.Inp
 *.map
-*.exp
+*.tra
+*.dep
+*._2i
+*.l2p
+*.__i
+*.fed
+*.crf
+*.d
+*.o
+*.lst
+*.lnp
+*.bak
+*.scvd
 
-# Precompiled Headers
-*.gch
-*.pch
+*.ini
+*.iex
+*.sct
+*.uvgui.*
+*.uvguix.*
+*.tmp
+**/JLinkLog.txt
+**/_viminfo
+**/_vimtags
+_build/
+RTE/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+## Segger Embedded Studio ##
+*.jlink
+**/ses/Output/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+## Visual Studio Code ##
+.vscode/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+## HEX files ##
+MKB316_HEX/
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
+##STM##
+*.dep
 *.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+*.spy
+*.stw
+*.wdb
+*.wed
+*.xml
+*.rej
+*.lkf
+*.sm8
+*.s19
+Release/
+Debug/
